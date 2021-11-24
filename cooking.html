@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="Styles.css" />
+    <title>Cooking form</title>
+  </head>
+  <body>
+    <h1>Kookstijl formulier</h1>
+    <form name="contact" method="post" data-netlify="true">
+      <p>
+        <label>Naam:<input type="text" name="naam" /></label>
+      </p>
+      <p>
+        <label>Email:<input type="email" name="email" /></label>
+      </p>
+      <p>
+        <label>Telefoon:<input type="tel" name="telefoon" /></label>
+      </p>
+      <p>
+        <label>Leeftijd:<input type="number" name="leeftijd" /></label>
+      </p>
+      <p>
+        <label>Geboortedatum:<input type="date" name="geboortedatum" /></label>
+      </p>
+      <p>
+        <label
+          >Geslacht: <input type="radio" name="geslacht" value="man" />  <label
+            >Man</label
+          >
+            <input type="radio" name="geslacht" value="vrouw" />
+          <label>Vrouw</label> </label
+        >
+      </p>
+      <p>
+        <label>Favoriete keuken:</label>
+        <input type="checkbox" name="Frans" value="Frans" /><label for="Frans"
+          >Frans</label
+        >
+        <input type="checkbox" name="Italiaans" value="Italiaans" /><label
+          for="Italiaans"
+          >Italiaans</label
+        >
+        <input type="checkbox" name="Spaans" value="Spaans" /><label
+          for="Spaans"
+          >Spaans</label
+        >
+        <input type="checkbox" name="Arabisch" value="Arabisch" /><label
+          for="Arabisch"
+          >Arabisch</label
+        ><input type="checkbox" name="Grieks" value="Grieks" /><label
+          for="Grieks"
+          >Grieks</label
+        ><input type="checkbox" name="Nederlands" value="Nederlands" /><label
+          for="Nederlands"
+          >Nederlands</label
+        >
+
+        <br />
+      </p>
+      <p>
+        <label
+          >Schort kleur:<input type="color" name="color" value="color"
+        /></label>
+      </p>
+      <p>
+        <label for="Biography">Biography</label>
+        <textarea name="Biography" value="Biography"></textarea>
+      </p>
+      <p>
+        <label
+          >Upload je laatste recept:<input
+            type="file"
+            name="recept"
+            value="recept"
+        /></label>
+      </p>
+      <p>
+        <label
+          >Link je website:<input type="url" name="website" value="website"
+        /></label>
+      </p>
+
+      <p>
+        <label><button type="reset" name="reset" value="reset" />reset</label>
+      </p>
+      <p>
+        <label
+          ><button type="submit" name="submit" value="reset" />Verstuur</label
+        >
+      </p>
+    </form>
+  </body>
+</html>

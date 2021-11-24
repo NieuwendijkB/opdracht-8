@@ -1,0 +1,176 @@
+body {
+  background-color: rgba(216, 218, 210, 0.308);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  margin: auto;
+  width: 85%;
+}
+h2 {
+  text-align: center;
+}
+footer {
+  margin-top: 20px;
+}
+aside nav a {
+  float: right;
+  margin-right: 10%;
+  font-size: 20px;
+}
+.text1 {
+  border: 7px ridge black;
+  border-radius: 15px;
+  margin: 100px;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+}
+.text2 {
+  border: 5px ridge black;
+  border-radius: 15px;
+  margin: 10px 0px 20px 0px;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.black-border {
+  border: 5px solid black;
+  text-align: center;
+}
+.orange-background {
+  background-color: orange;
+  border: 5px solid black;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.green-background {
+  background-color: green;
+  margin: auto;
+  font-size: large;
+  padding-left: 10px;
+}
+.red-background {
+  background-color: red;
+  font-size: large;
+  margin: auto;
+  padding-left: 10px;
+}
+.green-border {
+  border: 5px double greenyellow;
+  margin: auto;
+  padding: 0%;
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+.red-border {
+  border: 5px double red;
+  margin: auto;
+  padding: 0%;
+  float: right;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.links {
+  text-align: end;
+  font-size: 10px;
+  margin-top: 0px;
+}
+a:hover {
+  color: red;
+}
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+.left-align {
+  text-align: left;
+}
+.hobbybar li {
+  display: inline;
+  list-style-type: none;
+  width: 17%;
+  float: left;
+  border: 5px solid black;
+  text-align: center;
+  background-color: orange;
+  margin: 0 auto;
+}
+li a {
+  text-decoration: none;
+  color: black;
+  line-height: 25px;
+  display: block;
+  padding: 0;
+  margin: auto;
+}
+li a:hover {
+  background-color: black;
+  color: orange;
+}
+.hobbybar {
+  margin: 0 auto;
+}
+nav ul {
+  margin: 0 auto;
+  align-content: center;
+}
+.cooklink {
+  text-align: center;
+}
+@media (max-width: 1024px) {
+  body {
+    font-size: 16px;
+    width: 85%;
+    color: rgba(31, 23, 23, 0.822);
+  }
+  .green-background {
+    font-size: 20px;
+  }
+  .red-background {
+    font-size: 20px;
+  }
+  body {
+    background-color: rgba(183, 185, 175, 0.308);
+  }
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 12px;
+    width: 90%;
+    color: rgba(31, 23, 23, 0.822);
+  }
+
+  .green-background {
+    font-size: 18px;
+  }
+  .red-background {
+    font-size: 18px;
+  }
+  body {
+    background-color: rgba(104, 105, 100, 0.192);
+  }
+}
+@media (max-width: 320px) {
+  body {
+    font-size: 10px;
+    width: 95%;
+    color: rgba(31, 23, 23, 0.822);
+  }
+
+  .green-background {
+    font-size: 14px;
+  }
+  .red-background {
+    font-size: 14px;
+  }
+  body {
+    background-color: rgba(78, 78, 75, 0.075);
+  }
+}
